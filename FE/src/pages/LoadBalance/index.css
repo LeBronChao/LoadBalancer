@@ -1,0 +1,15 @@
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.counter-title{
+    margin-bottom: 60px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.counter-pie{
+    margin-top: 60px;
+}

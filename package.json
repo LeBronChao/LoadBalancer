@@ -1,0 +1,20 @@
+{
+  "name": "load-balance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "user": "node user/main.js",
+    "standard": "node standard/src/main.js"
+  },
+  "repository": {
+    "type": "git",
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "fnv-plus": "^1.3.1"
+  }
+}
