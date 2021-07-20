@@ -49,7 +49,7 @@ const run = () => {
         const source = await getSource(req);
         // 获取URL
         const URL = getURL(source);
-        // res.redirect(301, URL) 重定向负载均衡
+        // res.redirect(302, URL) 重定向负载均衡
         // 记录请求开始时间
         const start = Date.now();
         // 代理请求
