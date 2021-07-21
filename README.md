@@ -5,7 +5,7 @@
 
 # 学习资料
 
-[Load Balance负载均衡 🌡 - 飞书云文档 (feishu.cn)](https://bytedance.feishu.cn/docs/doccnZQQuRmUDQ6ULjeHFsji4Pe#)
+[【深入浅出LB】手把手带你实现一个负载均衡器](https://juejin.cn/post/6987196608161005581/)
 
 
 
