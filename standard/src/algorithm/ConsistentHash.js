@@ -18,11 +18,12 @@ const ConsistentHash = (urlDesc) => {
         // 生成Hash十进制数值
         const hashInfo = Hash(sourceInfo);
         // 遍历hash数组找到第一个比源信息hash值大的，并通过hashMap返回url
-        hashCollect.forEach((val) => {
+        for(const key in hashCollect){
+            const val = hashCollect[key];
             if (val >= hashInfo) {
                 return urlHashMap[val];
             }
-        });
+        }
         // 没找大则返回最大的
         return urlHashMap[hashCollect[hashCollect.length - 1]];
     };
